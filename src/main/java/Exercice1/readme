@@ -1,0 +1,8 @@
+Exercice 1
+
+1.2.
+il est difficile de rajouter de nouveau type d'instrument car:
+Pour rajouter de nouveaux types d'instruments il faut:
+ créer le fichier du type d'instrument correspondant (ici Stringed,
+ modifier la classe Orchestra en ajoutant une fonction tune, une fonction add et modifier le tuneALL
+ modifier la classe Music pour creer les elements instruments et le type d'instrument
