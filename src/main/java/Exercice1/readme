@@ -1,8 +1,26 @@
 Exercice 1
 
 1.2.
+a/
 il est difficile de rajouter de nouveau type d'instrument car:
 Pour rajouter de nouveaux types d'instruments il faut:
- créer le fichier du type d'instrument correspondant (ici Stringed,
- modifier la classe Orchestra en ajoutant une fonction tune, une fonction add et modifier le tuneALL
+ créer le fichier du type d'instrument correspondant (ici Stringed)
+ modifier la classe Orchestra en ajoutant une méthode tune, une méthode add et modifier le tuneALL
  modifier la classe Music pour creer les elements instruments et le type d'instrument
+
+ b/
+ non il suffit de changer créer une list avec les different instrument dans l'ordre et une méthode parcourant cette list
+
+ 1.3
+ non il n'est pas conforme car aucun des principes n'est respecté
+
+ 1.4
+Je créerais une méthode pause() dans les différentes classes
+
+non il ne respecte pas le principe de subsitution de Liskov car la méthode utilise le type d'instrument mais ne peut pas utiliser directement les sous classes des classes type d'instrument.
+
+1.5
+non il ne respecte pas  le principe des Inversion des dépendances car il concerne uniquement les abstractions
+
+
+
