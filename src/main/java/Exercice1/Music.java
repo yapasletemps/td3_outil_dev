@@ -13,7 +13,7 @@ public class Music {
         orch.addWind(brass);
         orch.addWind(woodwind);
         orch.tuneAll();
-
+//afin de séparer les instrument et les types d'instrument les instruments seront dans la liste et les type d'instrument seront joué avec la méthode tune
 
     }
 }

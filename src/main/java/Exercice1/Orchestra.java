@@ -7,10 +7,12 @@ public class Orchestra {
     private ArrayList<Percussion> Percussion = new ArrayList<>();
 
     public void tuneWind(Wind wind){
+
         wind.play();
     }
 
     public void tunePercussion(Percussion percussion){
+
         percussion.play();
     }
 
@@ -25,10 +27,12 @@ public class Orchestra {
     }
 
     public void addWind(Wind wind){
+
         this.Wind.add(wind);
     }
 
     public void addPercussion(Percussion percussion){
+
         this.Percussion.add(percussion);
     }
 

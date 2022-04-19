@@ -9,7 +9,7 @@ Pour rajouter de nouveaux types d'instruments il faut:
  modifier la classe Music pour creer les elements instruments et le type d'instrument
 
  b/
- non il suffit de changer créer une list avec les different instrument dans l'ordre et une méthode parcourant cette list
+ il est difficile de réutiliser la classe orchestra pour composer une autre musique car on ne sépare pas les type d'instrument et les instruments seul
 
  1.3
  non il n'est pas conforme car aucun des principes n'est respecté

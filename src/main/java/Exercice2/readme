@@ -1,0 +1,18 @@
+2.3.
+
+a/
+il n'est pas difficile de rajouter de nouveaux type d'instrument. il suffit d'ajouter la nouvelle classe.
+
+b/ il est difficile de réutiliser la classe orchestra pour composer une autre musique car on ne sépare pas les type d'instrument et les instruments seul
+
+2.4.
+ non il n'est pas conforme car aucun des principes n'est respecté
+
+ 2.5.
+ Je créerais une méthode pause() dans les différentes classes et dans l'abstract
+
+ oui il respect le principe de substitution de Lskov
+
+ 2.6.
+
+ oui il respect le principe des inversion des dépendances
